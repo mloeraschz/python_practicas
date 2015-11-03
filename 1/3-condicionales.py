@@ -12,8 +12,8 @@
 ##### Por ejemplo, iniciemos con una variable numérica que el usuario debe
 ##### escribir:
 
-miVariable = input("Escribe un número entero: ")
-miVariable = int(miVariable)        ##### Esta línea de codigo transforma
+#miVariable = input("Escribe un número entero: ")
+#miVariable = int(miVariable)        ##### Esta línea de codigo transforma
                                     ##### una variable string a número.
                                     ##### La función input siempre produce
                                     ##### una variable string.
@@ -32,17 +32,32 @@ miVariable = int(miVariable)        ##### Esta línea de codigo transforma
 #####  imprime que el número es un par".
 
 ##### En lenguaje Python, eso se traduce a:
-if miVariable % 2 == 0:
-    print("El número es un par")
+#if miVariable % 2 == 0:
+#    print("El número es un par")
 
 ##### ¿Cómo podriamos informarle al usuario que el número es impar?
 ##### La solución es usando la siguiente expresión. (Borra los hashtags
 ##### cuando se te indique).
-#####elif miVariable % 2 != 0:
+#####else:
 #####    print("El número es un impar")
 
+##### Si quisiéramos agregar una condición alternativa, podemos utilizar
+##### la instancia "elif".
+##### Por ejemplo, tomemos esta lista de números:
 
+#miLista = [1,2,3,4,5,6,11,22,33,44,55,66]
 
+#for x in miLista:
+#    if x % 3 == 0 and x % 2 == 0:
+#        print("%s es divisible entre 2 y 3" % x)
+    
+#    elif x % 2 == 0:
+#        print("%s es divisible entre 2" % x)
+#        
+#    elif x % 3 == 0:
+#        print("%s es divisible entre 2" % x)
+#    else:
+#        print("%s no es divisible entre 2 o 3" % x)
 
 
 
