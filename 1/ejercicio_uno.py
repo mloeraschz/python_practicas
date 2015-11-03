@@ -30,7 +30,24 @@ V	99.1311'''
     
 proteina = 'MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN'
 
+##### No. 2 NOMBRES Y CARRERAS
+##### Con la lista de alumnos asistentes al curso, codifica un
+##### un una instancia "if...elif...else" que imprima el nombre de cada alumno
+##### y su carrera.
+##### Pista: no olvides utilizar las instancias "%s" % variable
+##### Para modificar variables de texto de manera dinámica.
 
+##### No. 3 DICCIONARIO DE DICCIONARIOS
+##### Crea un diccionario que contenga a su vez un diccionario por cada asistente del curso
+##### con la siguiente estructura:
+##### myDic['asistente1'] = {"nombre":"x", "ciudad":"y","carrera":"z"}
+##### Pista: no olvides usar un loop "for" y la función "zip"
+##### para iterar a través de varias listas al mismo tiempo.
+##### Recuerda también que la asignación de múltiples variables es posible.
+##### Pista 2: no olvides que puedes crear un diccionario vacío de la siguiente
+##### manera:
+##### miDic = {}
+##### Pista 3: investiga cómo crear un counter
 
 
     
