@@ -79,25 +79,3 @@ alumDict = {}
 for x,y in zip(campos, alumno1):
     alumDict[x] = y
 print(alumDict)
-
-
-####### ACTIVIDAD 1:
-####### 1) CREA UNA LISTA QUE CONTENGA UN DICCIONARIO POR CADA ALUMNO
-#######    DE ESTE CURSO. LAS KEYS SERÁN: 'nombre', 'carrera','semestre'
-#######    PISTA: UTILIZA UN FOR LOOP ADENTRO DE OTRO FOR LOOP (LOOP ANIDADO)
-#######    Y RECUERDA QUE LA FUNCIÓN zip() PERMITE ITERAR A TRAVÉS DE DOS LISTAS.
-####### 2) CREA SUB-LISTAS CON LOS NOMBRES DE LOS ALUMNO QUE PERTENECEN
-#######    A UNA CARRERA.
-####### 3) IMPRIME CADA SUB-LISTA.
-
-alumnos = [['bambi','LBG','3'],['bambi2','LCA','4'],['bambi3','BIO','5'],['bambi4','QBP','7']]
-alumDictList = []
-for x in alumnos:
-    alumDict = {}
-    for y,z in zip(x,campos):
-        alumDict[z] = y
-    alumDictList.append(alumDict)
-
-for alum in alumDictList:
-    if alum['carrera'] == 'LBG':
-        print(alum['nombre'])     
