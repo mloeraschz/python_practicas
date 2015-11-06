@@ -117,3 +117,14 @@ print(pal)
 ##### caracter entre ellos.
 
 
+##### TUPLES
+##### 
+##### Otra estructura de datos que soporta Python, son los tuples. Estas estructuras son
+##### similares a las listas, con la diferencia de que no se pueden cambiar una vez
+##### instanciados. Es decir, el método ".replace" no funciona con las tuples.
+##### También, la sintaxis es diferente:
+
+miTuple = ('elemento1','elemento2','elemento3')
+
+##### Los tuples son útiles cuando se necesita especificar un vector de datos
+##### constante.
