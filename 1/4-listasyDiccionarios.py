@@ -87,3 +87,33 @@ print(triangulo)
 ##### RETO!!!! Asígnales los siguientes valores a las keys del triángulo:
 ##### base = 20 y altura = 50. Luego encuentra el área del triángulo
 ##### e imprímela.
+
+##### DE STRING A LISTA Y VICEVERSA
+##### 
+##### La función "list" y el método ".join" permiten transformar variables de 
+##### cadenas de caracteres en listas, y viceversa, respecetivamente.
+##### 
+##### Por ejemplo, supongamos que se tiene la siguiente variable de cadena de
+##### caracteres:
+
+pal = 'palabra'
+
+##### Para transformarla a una lista cuyos elementos sean cada letra, basta con utilizar
+##### la función "list":
+
+pal = list(pal)
+print(pal)
+
+##### Y al contrario, para transformar una lista de vuelta a string, se puede utilizar
+##### el método ".join".
+
+pal = ''.join(pal)
+print(pal)
+
+##### Si te fijas, antes del método ".join" se escribieron dos comillas '' 
+##### Esto es porque dentro de estas comillas se especifica el caracter que
+##### habrá de unir a la lista. En nuestro caso, ningún caracter fue especificado,
+##### por lo que el método ".join" unió a los elementos de la lista sin ningún
+##### caracter entre ellos.
+
+
