@@ -22,7 +22,7 @@ CGGGCCTTCTCGGTTCCGGTGCACATTTACGCCAGACCTTAGGTCACATTCTGTAA
 
 
 
-#### No.2 Extrae la información referente al Distrito Federal, Guadalajara y
-#### Monterrey de las bases de datos del INEGI (están en tu bandeja del correo
+#### No.2 Extrae la información referente al Distrito Federal, Jalisco y
+#### Nuevo León de las bases de datos del INEGI (están en tu bandeja del correo
 #### electrónico) y genera un archivo .csv nuevo que contenga ese subconjunto
 #### de datos.
