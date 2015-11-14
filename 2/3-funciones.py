@@ -39,5 +39,8 @@ def areaTriangulo(b,h):
 print(areaTriangulo(2,2))
 
 
-#### Reto: Define una función que elimine los caracteres: \n \t "
+#### Reto1: Define una función que elimine los caracteres: \n \t "
 #### y que transforme un texto a mayúsculas.
+
+#### Reto2: Define una función que calcule la desviación estándar de una
+#### lista de números. Haz otra función para calcular la mediana.
