@@ -42,7 +42,7 @@
 #####    print("El número es un impar")
 
 ##### Si quisiéramos agregar una condición alternativa, podemos utilizar
-##### la instancia "elif".
+##### el enunciado "elif".
 ##### Por ejemplo, tomemos esta lista de números:
 
 #miLista = [1,2,3,4,5,6,11,22,33,44,55,66]
