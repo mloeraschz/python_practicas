@@ -36,7 +36,7 @@ for elemento in lista:
 ##### Actividad: escribe las excepciones adecuada para que el siguiente loop
 ##### funcione hasta el último elemento de la lista "numeros".
 
-numeros = [0,1,2,3,4,5,6,x,8,9,"y",11]
+numeros = [0,1,2,3,4,5,6,"x",8,9,"y",11]
 for numero in numeros:
     print(1 + (1/numero))
 
