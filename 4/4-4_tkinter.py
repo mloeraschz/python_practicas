@@ -119,7 +119,7 @@ def seleccion(evento): # Primero definimos la acción que queremos que suceda:
 
 ## Primero, vamos a crear un botón inactivo:
 def hola():
-    lista.insert(5,'Quinto elemento')
+    print('Haz activado el botón!')
 
 b = Button(top,text='Boton activable',state=DISABLED,command=hola)
 b.pack()
