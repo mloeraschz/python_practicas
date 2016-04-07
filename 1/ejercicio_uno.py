@@ -31,6 +31,29 @@ V	99.1311'''
 proteina = 'MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN'
 
 ##### No. 2 NOMBRES Y CARRERAS
+nombres = ['Guillermo Eduardo Mac Cullagh Charles',
+'Enrique Alejandro Guevara Rivera',
+'Lizeth Escobedo HernÃ¡ndez',
+'Oscar Emiliano Lopez Ortiz',
+'Arantxa Violeta LÃ³pez Vaquera',
+'Anai Amaral Garcia','Servando Horacio Cantu Bernal']
+
+semestre = [9,
+6,
+9,
+8,
+8,
+6,3]
+
+carrera = ['Biología',
+'LBG',
+'Biología',
+'LBG',
+'Biología',
+'LBG','Maestría']
+
+
+
 ##### Con la lista de alumnos asistentes al curso, codifica un
 ##### un una instancia "if...elif...else" que imprima el nombre de cada alumno
 ##### y su carrera.
