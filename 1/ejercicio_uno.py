@@ -26,6 +26,27 @@ W	186.2099
 Y	163.1733
 V	99.1311'''
 
+aminoacidos = aa.split('\n')
+misAAs = {}
+
+for aa in aminoacidos:
+    aminoacido = aa.split('\t')
+    misAAs[aminoacido[0]] = float(aminoacido[1])
+
+print(misAAs)
+proteina = '''MFRLPHCAALLALLITLFRPAPAQSVSSEIVGHAVMAAIPVSAFAVAYFRHDVEGEKQWLRNTIANQTLTSIARLGFNETSLGRRPTGNGYGFPSGHVSFAGSGAAFYSERYGWMYGVPAWLATAYVANNRVQNGDHHWRDVIVSMALSYGVGKLFVTPENASYVAPVIGPDWLGLRWERSF'''
+proteina = list(proteina)
+
+MW = 0
+
+for x in proteina:
+    MW += misAAs[x]
+
+print(MW)
+
+
+    
+
 ### Con la información que se te presenta, calcula el peso molecular de la proteína.
     
 proteina = 'MALWMRLLPLLALLALWGPDPAAAFVNQHLCGSHLVEALYLVCGERGFFYTPKTRREAEDLQVGQVELGGGPGAGSLQPLALEGSLQKRGIVEQCCTSICSLYQLENYCN'
