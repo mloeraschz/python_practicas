@@ -26,13 +26,19 @@
 
 ### Vamos a representar la estructura de nuestro almacén con una clase:
 
-class almacen(object):
-    def __init__(self, compuestos):
-        self.compuestos = compuestos
+class reactivo(object):
+    def __init__(self, formula,MW):
+        self.formula = formula
+        self.MW = MW
 
-    def reporte(self):
-        nombres = ''
-        for x in compuestos:
-            print(x)
-            nombres += str(x['cantidad']) + ' gramos de ' + x['formula'] + '\n'
-        return print('El almacén cuenta con los siguientes compuestos:\n' + nombres)
+    def compuesto(self):
+        print('Este compuesto es: %s' % formula)
+
+    def gramos(self, volumen, molaridad):
+        gramos = self.MW * volumen * molaridad
+        return gramos
+
+NaCl = reactivo('NaCl',54.44)
+print(NaCl.formula)
+print(NaCl.MW)
+print(NaCl.gramos(1,1))
